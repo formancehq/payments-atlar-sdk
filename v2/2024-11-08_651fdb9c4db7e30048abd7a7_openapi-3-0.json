@@ -115,6 +115,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -165,12 +168,6 @@
             "style": "deepObject",
             "schema": {
               "oneOf": [
-                {
-                  "type": "string",
-                  "format": "date",
-                  "example": "2022-01-15",
-                  "description": "Include only credit transfers with `date` equal to the given value."
-                },
                 {
                   "type": "object",
                   "properties": {
@@ -240,6 +237,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -276,6 +276,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -347,6 +350,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -404,6 +410,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -453,6 +462,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -502,6 +514,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -565,6 +580,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -620,6 +638,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -656,6 +677,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -724,6 +748,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -774,6 +801,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -826,6 +856,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -867,6 +900,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -911,12 +947,6 @@
             "style": "deepObject",
             "schema": {
               "oneOf": [
-                {
-                  "type": "string",
-                  "format": "date",
-                  "example": "2022-01-15",
-                  "description": "Include only direct debits with `date` equal to the given value."
-                },
                 {
                   "type": "object",
                   "properties": {
@@ -986,6 +1016,9 @@
           },
           "400": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1022,6 +1055,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1079,6 +1115,9 @@
           },
           "400": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1128,6 +1167,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1177,6 +1219,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1213,6 +1258,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1298,6 +1346,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1325,6 +1376,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1366,6 +1420,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1447,6 +1504,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1488,6 +1548,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1561,6 +1624,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1597,6 +1663,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1708,6 +1777,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1735,6 +1807,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1777,6 +1852,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1863,6 +1941,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1899,6 +1980,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1956,6 +2040,9 @@
           },
           "400": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -1995,6 +2082,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2031,6 +2121,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2099,6 +2192,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2153,6 +2249,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2197,12 +2296,6 @@
             "style": "deepObject",
             "schema": {
               "oneOf": [
-                {
-                  "type": "string",
-                  "format": "date",
-                  "example": "2022-01-15",
-                  "description": "Include only transactions with `date` equal to the given value."
-                },
                 {
                   "type": "object",
                   "properties": {
@@ -2264,6 +2357,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2307,6 +2403,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2365,6 +2464,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2401,12 +2503,6 @@
             "style": "deepObject",
             "schema": {
               "oneOf": [
-                {
-                  "type": "string",
-                  "format": "date",
-                  "example": "2022-01-15",
-                  "description": "Include only pending transactions with `date` equal to the given value."
-                },
                 {
                   "type": "object",
                   "properties": {
@@ -2468,6 +2564,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2511,6 +2610,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2568,6 +2670,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2657,6 +2762,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2709,6 +2817,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2761,6 +2872,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2797,6 +2911,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2824,6 +2941,9 @@
           },
           "404": {
             "$ref": "#/components/responses/NotFound"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2882,6 +3002,9 @@
           },
           "400": {
             "$ref": "#/components/responses/BadRequest"
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         },
         "security": [
@@ -2957,6 +3080,9 @@
                 }
               }
             }
+          },
+          "default": {
+            "$ref": "#/components/responses/UnexpectedError"
           }
         }
       }
@@ -7914,6 +8040,19 @@
             },
             "example": {
               "status": 204
+            }
+          }
+        }
+      },
+      "UnexpectedError": {
+        "description": "Default response for unexpected errors.",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/ErrorResponse"
+            },
+            "example": {
+              "status": 500
             }
           }
         }
