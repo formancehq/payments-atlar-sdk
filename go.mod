@@ -1,4 +1,4 @@
-module github.com/get-momo/payments-atlar-sdk
+module github.com/formancehq/payments-atlar-sdk
 
 go 1.23.2
 

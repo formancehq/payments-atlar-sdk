@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/get-momo/payments-atlar-sdk/v1/models"
+	"github.com/formancehq/payments-atlar-sdk/v1/models"
 )
 
 // PostV1betaExpectedTransactionsIDReconcileReader is a Reader for the PostV1betaExpectedTransactionsIDReconcile structure.

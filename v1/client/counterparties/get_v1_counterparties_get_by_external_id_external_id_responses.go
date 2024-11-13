@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/get-momo/payments-atlar-sdk/v1/models"
+	"github.com/formancehq/payments-atlar-sdk/v1/models"
 )
 
 // GetV1CounterpartiesGetByExternalIDExternalIDReader is a Reader for the GetV1CounterpartiesGetByExternalIDExternalID structure.

@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/get-momo/payments-atlar-sdk/v1/models"
+	"github.com/formancehq/payments-atlar-sdk/v1/models"
 )
 
 // NewPutV1WebhooksIDParams creates a new PutV1WebhooksIDParams object,
