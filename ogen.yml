@@ -1,0 +1,2 @@
+generator:
+  # ignore_not_implemented: ["complex uniqueItems", "unsupported content types","sum type parameter"]
