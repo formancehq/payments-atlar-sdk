@@ -1,6 +1,6 @@
-module github.com/formancehq/payments-atlar-sdk/v1
+module github.com/formancehq/payments-atlar-sdk
 
-go 1.20
+go 1.23.2
 
 require (
 	github.com/go-openapi/errors v0.22.0
@@ -8,9 +8,11 @@ require (
 	github.com/go-openapi/strfmt v0.23.0
 	github.com/go-openapi/swag v0.23.0
 	github.com/go-openapi/validate v0.24.0
+	github.com/oapi-codegen/runtime v1.1.1
 )
 
 require (
+	github.com/apapsch/go-jsonmerge/v2 v2.0.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
