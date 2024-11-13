@@ -10,16 +10,16 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/formancehq/payments-atlar-sdk/v1/client/accounts"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/counterparties"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/credit_transfers"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/direct_debits"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/expected_transactions"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/external_accounts"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/mandates"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/third_parties"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/transactions"
-	"github.com/formancehq/payments-atlar-sdk/v1/client/webhooks"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/accounts"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/counterparties"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/credit_transfers"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/direct_debits"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/expected_transactions"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/external_accounts"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/mandates"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/third_parties"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/transactions"
+	"github.com/get-momo/payments-atlar-sdk/v1/client/webhooks"
 )
 
 // Default rest HTTP client.

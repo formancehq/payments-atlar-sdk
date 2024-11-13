@@ -16,7 +16,7 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"github.com/formancehq/payments-atlar-sdk/v1/models"
+	"github.com/get-momo/payments-atlar-sdk/v1/models"
 )
 
 // GetV1DirectDebitsIDEventsReader is a Reader for the GetV1DirectDebitsIDEvents structure.
