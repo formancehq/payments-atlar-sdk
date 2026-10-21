@@ -14,8 +14,8 @@ The link to the current API specs can be obtained from https://docs.atlar.com/re
 ## Go compiler
 
 The SDK keeps its Go 1.23.2 minimum. The `toolchain` directive selects Go
-1.26.10 or newer for work in this module when `GOTOOLCHAIN=auto`. CI uses
-Go 1.26.10 with `GOTOOLCHAIN=local` and verifies the compiler before building.
+1.27.3 or newer for work in this module when `GOTOOLCHAIN=auto`. CI uses
+Go 1.27.3 with `GOTOOLCHAIN=local` and verifies the compiler before building.
 
 ```sh
 go version
