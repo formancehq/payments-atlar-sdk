@@ -2,6 +2,8 @@ module github.com/formancehq/payments-atlar-sdk/v2
 
 go 1.23.2
 
+toolchain go1.26.10
+
 require github.com/oapi-codegen/runtime v1.1.1
 
 require (
